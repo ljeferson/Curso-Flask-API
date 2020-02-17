@@ -1,7 +1,7 @@
 from flask_restful import Api
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from config import config
+from Config import config
 
 db = SQLAlchemy()
 
